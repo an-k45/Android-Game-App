@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="fall2018.csc2017.GameCenter">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".StartingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GameActivites.GameActivitySlidingTiles" />
+        <activity android:name=".AccountsActivities.ActivityYourAccount" />
+        <activity android:name=".ScoringActivities.ActivityAllScores" />
+        <activity android:name=".AccountsActivities.ActivityLogIn" />
+        <activity android:name=".AccountsActivities.ActivityCreateNewAccount" />
+        <activity android:name=".Choose.ActivityGames" />
+        <activity android:name=".Choose.ActivitySlidingTiles" />
+        <activity android:name=".GameActivites.GameActivity4096" />
+        <activity android:name=".GameActivites.GameActivityPipelines" />
+        <activity
+            android:name=".Choose.ChooseActivitySlidingTilesPhoto"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Choose.Activity4096" />
+        <activity android:name=".Choose.ActivityPipelines" />
+
+    </application>
+
+</manifest>

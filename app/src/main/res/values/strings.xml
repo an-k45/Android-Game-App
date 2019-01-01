@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GameCentre</string>
+    <string name="menu">Menu</string>
+    <string name="undo">Undo</string>
+    <string name="button4096">4096</string>string>
+    <string name="save_button_4096">Save</string>string>
+    <string name="load_button_4096">Load</string>string>
+    <string name="new_game_4096">New Game</string>string>
+    <string name="game_title_4096">4096</string>
+    <string name="game_title_pipelines">game_title_pipelines</string>string>
+    <string name="score_4096">Score: %1$d</string>string>
+    <string name="current_move_4096">Current move: %1$d</string>string>
+    <string name="last_save_4096">Last save: %1$d</string>string>
+    <string name="activity_4096_score_note">Note: Scores are only saved for loggen in users.
+    </string>string>
+    <string name="current_move_sliding">Current move: %1$d</string>string>
+    <string name="last_save_sliding">Last save: %1$d</string>string>
+    <string name="log_out_button_text">Log Out</string>string>
+    <string name="log_in_button_text">Log In</string>string>
+    <string name="personal_high_score_text">Personal High Score: %1$s</string>string>
+    <string name="high_score_log_in_text">Log in for Personal High Score</string>string>
+</resources>

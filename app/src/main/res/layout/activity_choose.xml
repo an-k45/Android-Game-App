@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="fall2018.csc2017.GameCenter.Choose.ChooseActivitySlidingTilesPhoto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/urlText"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Enter an image URL" />
+
+                <Button
+                    android:id="@+id/urlButton"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Get Image From URL" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/chosenImage"
+                android:layout_width="match_parent"
+                android:layout_height="285dp"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Image From Gallery"
+                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteY="342dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/numbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use Original"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="342dp" />
+
+        <TextView
+            android:id="@+id/difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Select Difficulty"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            tools:text="Select Difficulty" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/easy"
+                android:layout_height="wrap_content"
+                android:text="Easy"
+                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteY="342dp"
+                android:layout_weight="1"
+                android:layout_width="0dp" />
+
+            <Button
+                android:id="@+id/medium"
+                android:layout_height="wrap_content"
+                android:text="Medium"
+                android:layout_weight="1"
+                android:layout_width="0dp" />
+
+
+            <Button
+                android:id="@+id/hard"
+                android:layout_height="wrap_content"
+                android:text="Hard"
+                android:layout_weight="1"
+                android:layout_width="0dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Game!"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="342dp" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="342dp" />
+
+    </LinearLayout>
+</ScrollView>
