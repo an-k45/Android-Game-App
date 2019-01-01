@@ -111,11 +111,11 @@ As the user makes moves in these two games, a list of the most recent moves will
 
 ## Authors
 
-- **Viktar Chyhir**
-- **Christopher Wong**
-- **Thomas MacDonald **
-- **Bryan Jiang**
-- **Aniket Kali**
+- **[Viktar Chyhir](https://github.com/vicchig)**
+- **[Christopher Wong](https://github.com/obelisk-c)**
+- **[Thomas MacDonald](https://github.com/thomasdmacdonald)**
+- **[Bryan Jiang](https://github.com/bry-jiang)**
+- **[Aniket Kali](https://github.com/an-k45)**
 
 ## Acknowledgments
 
