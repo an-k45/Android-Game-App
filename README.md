@@ -107,7 +107,7 @@ As the user makes moves in these two games, a list of the most recent moves will
 
 ## Built With
 
-- [Android Studio](https://developer.android.com/studio/) - The framework through which the whole project was built
+- [Android Studio](https://developer.android.com/studio/) - The framework through which the whole project was built.
 
 ## Authors
 
